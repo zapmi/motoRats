@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "flyboy";
-    src: url("assets/FlyBoyBB.otf") format("woff"), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    url("assets/FlyBoyBB.otf") format('truetype');  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    font-family: "deftone";
+    src: url("assets/deftone.ttf") format("woff"), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("assets/deftone.ttf") format('truetype');  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 body {
     background-image: url(assets/ms6.png);
-    font-family: flyboy;
+    font-family: deftone;
     width: 100%;
 }
 h1, p.lead {
@@ -16,6 +16,18 @@ h1, p.lead {
 .jumbotron {
     background: rgba(10, 9, 9, 0.363);
     color: antiquewhite;
+}
+
+.nav-link {
+    font-size: 30px;
+}
+
+.lead {
+font-size: 15px;
+}
+
+.dropdown-menu {
+    font-size :25px;
 }
 
 #joinButton {
