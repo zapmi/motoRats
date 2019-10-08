@@ -1,7 +1,30 @@
+@font-face {
+    font-family: "flyboy";
+    src: url("assets/FlyBoyBB.otf") format("woff"), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("assets/FlyBoyBB.otf") format('truetype');  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+body {
+    background-image: url(assets/ms6.png);
+    font-family: flyboy;
+    width: 100%;
+}
 h1, p.lead {
     margin-left: 20px;
 }
 
+.jumbotron {
+    background: rgba(10, 9, 9, 0.363);
+    color: antiquewhite;
+}
+
 #joinButton {
-    margin-left: 220px;
+    margin-left: 20px;
+    background-color: black;
+    border-color: antiquewhite;
+}
+
+.navbar {
+    background: rgba(10, 9, 9, 0.363);
+    color: antiquewhite;
 }
